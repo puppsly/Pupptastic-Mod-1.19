@@ -9,6 +9,7 @@ import net.puppsly.pupptasticmod.PupptasticMod;
 public class ModItems {
     public static final Item RAW_ROSE_QUARTZ = registerItem("raw_rose_quartz",
             new Item(new FabricItemSettings().group(ModItemGroup.ROSEQUARTZ)));
+
     public static final Item ROSE_QUARTZ = registerItem("rose_quartz",
             new Item(new FabricItemSettings().group(ModItemGroup.ROSEQUARTZ)));
 

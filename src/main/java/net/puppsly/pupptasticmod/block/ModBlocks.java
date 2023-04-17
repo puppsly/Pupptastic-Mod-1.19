@@ -26,6 +26,10 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(2, 5)), ModItemGroup.ROSEQUARTZ);
 
+    public static final Block NETHERRACK_ROSE_QUARTZ_ORE = registerBlock("netherrack_rose_quartz_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
+                    UniformIntProvider.create(3, 7)), ModItemGroup.ROSEQUARTZ);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
