@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pupptasticmod:rose_quartz"
+    }
+  },
+  "result": {
+    "item": "pupptasticmod:rose_quartz_block"
+  }
+}
