@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pupptasticmod:block/deepslate_rose_quartz_ore"
+  }
+}

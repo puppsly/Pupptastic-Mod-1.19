@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pupptasticmod:block/block_of_rose_quartz"
+  }
+}

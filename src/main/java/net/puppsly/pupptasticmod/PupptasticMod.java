@@ -1,6 +1,8 @@
 package net.puppsly.pupptasticmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.puppsly.pupptasticmod.block.ModBlocks;
+import net.puppsly.pupptasticmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,5 +12,9 @@ public class PupptasticMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }
