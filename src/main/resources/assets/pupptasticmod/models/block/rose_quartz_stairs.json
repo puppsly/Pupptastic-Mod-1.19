@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pupptasticmod:block/block_of_rose_quartz",
+    "side": "pupptasticmod:block/block_of_rose_quartz",
+    "top": "pupptasticmod:block/block_of_rose_quartz"
+  }
+}

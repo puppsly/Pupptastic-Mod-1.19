@@ -20,11 +20,11 @@ public class ModConfiguredFeatures {
             ConfiguredFeatures.register("rose_quartz_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_ROSE_QUARTZ_ORES, 8));
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_ROSE_QUARTZ_ORE =
-            ConfiguredFeatures.register("rose_quartz_ore", Feature.ORE, new OreFeatureConfig(NETHER_ROSE_QUARTZ_ORES, 14));
+            ConfiguredFeatures.register("nether_rose_quartz_ore", Feature.ORE, new OreFeatureConfig(NETHER_ROSE_QUARTZ_ORES, 14));
 
 
 
     public static void registerConfigureFeatures() {
-        PupptasticMod.LOGGER.debug("Registering the ModConfiguredFeatures for " + PupptasticMod. MOD_ID);
+        PupptasticMod.LOGGER.debug("Registering the ModConfiguredFeatures for " + PupptasticMod.MOD_ID);
     }
 }

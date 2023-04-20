@@ -13,6 +13,9 @@ public class ModItems {
     public static final Item ROSE_QUARTZ = registerItem("rose_quartz",
             new Item(new FabricItemSettings().group(ModItemGroup.ROSEQUARTZ)));
 
+    public static final Item ROSE_QUARTZ_TOTEM = registerItem("rose_quartz_totem",
+            new Item(new FabricItemSettings().group(ModItemGroup.ROSEQUARTZ)));
+
 
     private static Item registerItem(String name, Item item) {
             return Registry.register(Registry.ITEM, new Identifier(PupptasticMod.MOD_ID, name), item);

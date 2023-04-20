@@ -16,11 +16,15 @@ public class PupptasticMod implements ModInitializer {
 	public void onInitialize() {
 		ModConfiguredFeatures.registerConfigureFeatures();
 
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
 
 		ModOreGeneration.generateOres();
+
+
+
 
 	}
 }

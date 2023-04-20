@@ -10,8 +10,8 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> ROSE_QUARTZ_ORE_PLACED = PlacedFeatures.register("rose_quartz_ore_placed",
-        ModConfiguredFeatures.ROSE_QUARTZ_ORE, modifiersWithCount(9,
-                HeightRangePlacementModifier.trapezoid(YOffset.fixed(-40), YOffset.fixed(60))));
+            ModConfiguredFeatures.ROSE_QUARTZ_ORE, modifiersWithCount(9,
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-40), YOffset.fixed(60))));
 
     public static final RegistryEntry<PlacedFeature> NETHER_ROSE_QUARTZ_ORE_PLACED = PlacedFeatures.register("nether_rose_quartz_ore_placed",
             ModConfiguredFeatures.NETHER_ROSE_QUARTZ_ORE, modifiersWithCount(10,
